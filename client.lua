@@ -83,10 +83,10 @@ end)
 
 -- Disconnect
 RegisterNUICallback('disconnect', function()
-    TriggerServerEvent('disconnectPlayer', function(source) end)
+    TriggerServerEvent('disconnectPlayer')
 end)
 
 -- Get Report
 RegisterNUICallback('sendReport', function(reportMessage)
-    TriggerServerEvent('sendReportToDiscord', function(source) end, reportMessage)
+    TriggerServerEvent('sendReportToDiscord', reportMessage)
 end)

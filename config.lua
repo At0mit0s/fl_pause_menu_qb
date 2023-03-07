@@ -1,7 +1,6 @@
 config = {
     discordLink = "url", -- Set discrod link
-    discord_Webhook = "webhook_url",
-    discord_WebhookName = "ReportSystem",
+    discord_Webhook = "webhook",
     discord_footer_message = "Reported by ",
     discord_WebhookColor = 16753920, -- Only decimal color
     discord_error_message = "Invalid form!",
